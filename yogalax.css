@@ -1,0 +1,3138 @@
+/*Start Global Rulez*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+
+    -webkit-perspective: 1000;
+
+    ::-webkit-scrollbar {
+        width: 12px;
+        background-color: #F5F5F5;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #d291bc;
+        background: linear-gradient(45deg, #d291bc 0%, rgba(255, 255, 255, 0) 100%);
+    }
+
+
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d291bc;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b16a99;
+}
+
+/*End Global Rulez*/
+
+/*Start Header*/
+.bg-img {
+    background-image: url("bg_2.jpg");
+    height: 40em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.bg-img::before {
+    content: '';
+    width: 68%;
+    height: 40em;
+    background: linear-gradient(45deg, #f3e3ee 0%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    top: 0;
+}
+
+.header {
+    width: 100%;
+    height: 40em;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+
+.header .nav {
+    width: 100%;
+    height: 5em;
+}
+
+
+.header .nav ul {
+    width: 54%;
+    list-style: none;
+    float: right;
+    padding-left: 1.8em;
+}
+
+.header .nav ul li {
+    float: left;
+    padding: 1.3em;
+    border: none;
+    cursor: pointer;
+    letter-spacing: .01em;
+    font-family: 'Noto Sans HK', sans-serif
+}
+
+.header .nav ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    opacity: 1;
+    text-decoration: none;
+
+}
+
+.header .nav ul li.active a,
+.header .nav ul li a:hover {
+    color: #d5beeb;
+}
+
+
+
+.header .brand {
+    width: 46%;
+    float: left;
+}
+
+.header .brand i {
+    color: #d5beeb;
+}
+
+.header .brand i:hover {
+    animation: snake 2s infinite linear normal running;
+}
+
+.header .brand h2 {
+    letter-spacing: .1em;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 1.2em;
+    font-size: 1.5em;
+}
+
+.header .overlay {
+    width: 75%;
+    height: 25em;
+    margin-top: 4em;
+}
+
+
+
+
+.header .overlay div {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.header .overlay div:first-of-type {
+    animation: showup 6s infinite;
+    font-size: 4em;
+    font-weight: 100;
+    line-height: 1.3;
+}
+
+.header .overlay div:last-of-type {
+    width: 0px;
+    animation: reveal 6s infinite;
+}
+
+.header .overlay div:last-of-type span {
+    animation: slidein 6s infinite;
+}
+
+
+
+
+.header .overlay h3 {
+    letter-spacing: .3em;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-top: 1.2em;
+    font-size: 1.3em;
+}
+
+.header .overlay button {
+    background-color: #d291bc;
+    border: none;
+    color: #FFF;
+    padding: 23px 38px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5em;
+    margin-top: 4em;
+    text-transform: capitalize;
+}
+
+
+
+/*End Header*/
+
+/*Start intro*/
+
+.intro {
+    width: 100%;
+    height: 48em
+}
+
+.in-img {
+    background-image: url("intro.jpg");
+    height: 48em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.intro .content {
+    padding: 2em;
+    width: 55%;
+    float: right;
+    height: 45em;
+    margin-top: 1.5em;
+}
+
+.intro .content p {
+    width: 90%;
+    animation: fading 1s 1 linear normal running;
+    animation-fill-mode: both;
+    line-height: 1.6;
+    font-size: .8em;
+    color: #bebebe;
+}
+
+.intro .content .check {
+    width: 100%;
+    height: 3.5em;
+    animation: fadeup 1s 1 linear normal running;
+    animation-fill-mode: both;
+}
+
+
+.intro .content .check2 {
+    width: 100%;
+    height: 3.5em;
+    animation: fadeup 1s 1 linear normal running;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+
+.intro .content .check3 {
+    width: 100%;
+    height: 3.5em;
+    animation: fadeup 1s 1 linear normal running;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+
+
+.intro .content .check4 {
+    width: 100%;
+    height: 3.5em;
+    animation: fadeup 1s 1 linear normal running;
+    animation-fill-mode: both;
+    animation-delay: 3s;
+}
+
+.intro .content .check5 {
+    width: 100%;
+    height: 3.5em;
+    animation: fadeup 1s 1 linear normal running;
+    animation-fill-mode: both;
+    animation-delay: 4s;
+}
+
+
+
+
+.intro .content .check i {
+    color: #d291bc;
+    width: 6%;
+    padding-top: 1.5em;
+}
+
+.intro .content .check2 i {
+    color: #d291bc;
+    width: 6%;
+    padding-top: 1.5em;
+}
+
+.intro .content .check3 i {
+    color: #d291bc;
+    width: 6%;
+    padding-top: 1.5em;
+}
+
+.intro .content .check4 i {
+    color: #d291bc;
+    width: 6%;
+    padding-top: 1.5em;
+}
+
+
+.intro .content .check5 i {
+    color: #d291bc;
+    width: 6%;
+    padding-top: 1.5em;
+}
+
+
+/*End Slider*/
+
+/*Start Fetures*/
+
+.fetures {
+    width: 100%;
+    height: 30em;
+    background-color: #fafafa;
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+
+.fetures .kind {
+
+    width: 24%;
+    height: 25em;
+    padding: 2em .5em .5em .5em;
+    display: inline-grid;
+}
+
+.fetures .kind .icon {
+    width: 6em;
+    height: 7em;
+    text-align: center;
+    padding-top: 2.5em;
+}
+
+.fetures .kind .icon span {
+    display: inline;
+    background-color: #f7ebf3;
+    padding: .9em;
+    border-radius: 100%;
+    font-size: 1.2em;
+    color: #e0b2d0;
+    padding-top: 1.5em;
+}
+
+
+
+.fetures .icon i:hover {
+    animation: icons .5s 1 linear normal running;
+}
+
+.fetures .text {
+    width: 100%;
+    height: 15em;
+}
+
+.fetures .text p {
+    width: 90%;
+    line-height: 1.6;
+    font-size: .8em;
+    color: #bebebe;
+
+}
+
+/*End Fetures*/
+
+/*Start Gallery*/
+
+.classes {
+    width: 100%;
+    height: 75em;
+}
+
+
+.responsive {
+
+    float: left;
+}
+
+.program-1 {
+    background-image: url(program-1.jpg);
+    width: 33.33333%;
+    height: 28em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.program-1:hover {
+    box-shadow: 0px 6px 10px 10px #f7ebf3;
+    border: 1px solid #ccc;
+}
+
+.program-2 {
+    background-image: url(program-2.jpg);
+    width: 33.33333%;
+    height: 28em;
+    background-size: 29em;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.program-2:hover {
+    box-shadow: 0px 6px 10px 10px #f7ebf3;
+    border: 1px solid #ccc;
+}
+
+.program-3 {
+    background-image: url(program-3.jpg);
+    width: 33.33333%;
+    height: 28em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.program-3:hover {
+    box-shadow: 0px 6px 10px 10px #f7ebf3;
+    border: 1px solid #ccc;
+}
+
+.program-4 {
+    background-image: url(program-4.jpg);
+    width: 33.33333%;
+    height: 28em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.program-4:hover {
+    box-shadow: 0px 6px 10px 10px #f7ebf3;
+    border: 1px solid #ccc;
+}
+
+.program-5 {
+    background-image: url(program-5.jpg);
+    width: 33.33333%;
+    height: 28em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.program-5:hover {
+    box-shadow: 0px 6px 10px 10px #f7ebf3;
+    border: 1px solid #ccc;
+}
+
+.program-6 {
+    background-image: url(program-6.jpg);
+    width: 33.33333%;
+    height: 28em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.program-6:hover {
+    box-shadow: 0px 6px 10px 10px #f7ebf3;
+    border: 1px solid #ccc;
+}
+
+
+.classes h1 {
+    text-align: center;
+}
+
+
+/*End Gallery*/
+
+/*Start Pricing*/
+
+.pricing {
+    width: 100%;
+    height: 60em;
+    background-color: #fafafa;
+}
+
+.pricing .title {
+    width: 100%;
+    height: 18em;
+    text-align: center;
+    padding-top: 2.5em;
+}
+
+.pricing .price-table {
+    width: 27%;
+    height: 35em;
+    float: left;
+    margin: 2em;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+.pricing .price-table h5 {
+    letter-spacing: .1em;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #303030;
+}
+
+.pricing .price-table h1 {
+    letter-spacing: .1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+    color: #d291bc;
+
+}
+
+.pricing .price-table p {
+    font-size: .8em;
+    color: #bebebe;
+    text-transform: capitalize;
+}
+
+.pricing .price-table h4 {
+    padding-top: 1em;
+    color: #868686;
+    text-transform: capitalize;
+}
+
+/*End pricing*/
+
+/*Start Testmony*/
+.testmony {
+    width: 100%;
+    height: 42em;
+}
+
+.testmony .title {
+    text-align: center;
+    padding-top: 2.5em;
+    height: 19em;
+}
+
+.testmony .story {
+    width: 33.33333%;
+    height: 21em;
+    float: left;
+    position: relative;
+}
+
+.testmony .story p {
+    width: 55%;
+    float: right;
+    color: #bbbbbb;
+}
+
+.testmony .story .icon {
+    width: 2.5em;
+    height: 2.1em;
+    text-align: center;
+    background-color: #d291bc;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.5em;
+    left: 3.3em;
+}
+
+.testmony .story .content::before {
+    content: '';
+    width: .4%;
+    height: 8em;
+    position: absolute;
+    top: .8em;
+    left: 4.5em;
+    background-color: #e6e6e6;
+}
+
+.testmony .story .content {
+    width: 100%;
+    height: 10.5em;
+
+}
+
+.testmony .story .profile {
+    width: 100%;
+    height: 11em;
+    padding-left: 10em;
+
+}
+
+.testmony .story .trainer-1 {
+    background-image: url(person_1.jpg);
+    width: 8em;
+    height: 8em;
+    background-size: 8em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    float: left;
+}
+
+.testmony .story .trainer-2 {
+    background-image: url(person_2.jpg);
+    width: 8em;
+    height: 8em;
+    background-size: 8em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    float: left;
+}
+
+.testmony .story .profile h5 {
+    width: 8em;
+    float: right;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.testmony .story .profile p {
+    width: 7em;
+    float: right;
+    color: #c6c6c6;
+}
+
+
+.testmony .story .icon i {
+    padding: .8em;
+    color: #fff;
+
+}
+
+
+.testmony ul {
+    list-style: none;
+    text-align: center;
+    height: 3em;
+    width: 94%;
+    padding-left: 4em;
+}
+
+.testmony ul li {
+    border-radius: 100%;
+    width: 6px;
+    height: 6px;
+    border: 1px solid #edd3e5;
+    display: inline-block;
+    background-color: #cccccc;
+}
+
+.testmony ul li.active {
+    background-color: #edd3e5;
+}
+
+
+
+.parallax {
+    width: 100%;
+    height: 20em;
+}
+
+.parallax .number-bg {
+    background-image: url(bg_3.jpg);
+    height: 20em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax .number-bg .color {
+    width: 100%;
+    height: 20em;
+    background: linear-gradient(45deg, #d291bc 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.parallax .color .text {
+    width: 22%;
+    height: 10em;
+    float: left;
+    margin: 1em;
+    margin-top: 5em;
+    text-align: center;
+}
+
+.parallax .color .text h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 3.4em;
+    color: #fff;
+    margin-bottom: .1em;
+}
+
+.parallax .color .text p {
+    font-size: .8em;
+    color: #fff2fb;
+    text-transform: capitalize
+}
+
+
+/*End Testmony*/
+
+/*Start Blog*/
+
+.blog {
+    width: 100%;
+    height: 50em;
+    background-color: #fafafa;
+}
+
+.blog .title {
+    text-align: center;
+    padding-top: 2.5em;
+    height: 15em;
+}
+
+.blog .post {
+    width: 30.33333%;
+    height: 32em;
+    margin: 1em;
+    background-color: #fff;
+    float: left;
+    -webkit-transition: border-color .7s;
+    transition: border-color .7s;
+}
+
+.blog .post:hover {
+    border: 1px solid #d291bc;
+}
+
+.blog .post .post-img {
+    width: 100%;
+    height: 15em;
+    background-image: url(image_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog .post .post-img2 {
+    width: 100%;
+    height: 15em;
+    background-image: url(image_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog .post .post-img3 {
+    width: 100%;
+    height: 15em;
+    background-image: url(image_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog .post .text {
+    width: 100%;
+    height: 15em;
+}
+
+.blog .post .text .date {
+    width: 100%;
+    height: 7em;
+    padding-top: 1em;
+}
+
+.blog .post .text .date h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 3em;
+    color: #d291bc;
+    width: 20%;
+    padding-left: .5em;
+    float: left;
+}
+
+.blog .post .text .date p {
+    width: 73%;
+    color: #bbbbbb;
+    float: right;
+    font-size: 1.2em;
+    line-height: 1.9em;
+}
+
+.blog .post .text .bio {
+    width: 100%;
+    height: 7em;
+    padding: .5em;
+}
+
+.blog .post .text .bio h5 {
+    letter-spacing: .1em;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+.blog .post .text .bio p {
+    color: #bbbbbb;
+    font-size: 1em;
+}
+
+/*End Blog*/
+
+/*Start Gallery*/
+
+.gallery {
+    width: 100%;
+    height: 39em;
+}
+
+.gallery .title {
+    text-align: center;
+    padding-top: 1.5em;
+    height: 15em;
+}
+
+.gallery .content {
+    width: 100%;
+    height: 24em;
+    padding-left: 5em;
+}
+
+.gallery .photo {
+    width: 21%;
+    height: 22em;
+    float: left;
+    background-image: url(gallery-1.jpg);
+    background-size: 32em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 1.1em;
+}
+
+.gallery .photo:hover {
+    animation: snake 2s infinite linear normal running;
+}
+
+
+.gallery .photo-2 {
+    width: 21%;
+    height: 22em;
+    float: left;
+    background-image: url(gallery-2.jpg);
+    background-size: 32em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 1.1em;
+}
+
+.gallery .photo-2:hover {
+    animation: snake 2s infinite linear normal running;
+}
+
+
+.gallery .photo-3 {
+    width: 19%;
+    height: 22em;
+    float: left;
+    background-image: url(gallery-3.jpg);
+    background-size: 32em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 1.1em;
+}
+
+.gallery .photo-3:hover {
+    animation: snake 2s infinite linear normal running;
+}
+
+
+.gallery .photo-4 {
+    width: 19%;
+    height: 21.5em;
+    float: left;
+    background-image: url(gallery-4.jpg);
+    background-size: 18em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 1.1em;
+}
+
+.gallery .photo-4:hover {
+    animation: snake 2s infinite linear normal running;
+}
+
+
+/*End Gallery*/
+
+/*Start Footer*/
+.footer {
+    width: 100%;
+    height: 14em;
+    background-color: #d291bc;
+    float: left;
+}
+
+.footer .content {
+    width: 100%;
+    height: 11em;
+    padding: 1em;
+}
+
+.footer .content-2 {
+    width: 70%;
+    height: 10em;
+    float: right;
+}
+
+.footer .content h2 {
+    letter-spacing: .1em;
+    font-family: 'Noto Sans HK', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #fff;
+    font-size: 2em;
+    float: left;
+    width: 15%;
+}
+
+.footer .content-2 h2 {
+    letter-spacing: .1em;
+    font-family: 'Noto Sans HK', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.3em;
+    float: left;
+    width: 64%;
+    padding-top: .8em;
+}
+
+.footer .content .icons {
+    width: 35%;
+    height: 10em;
+    float: right;
+    text-align: center;
+    padding-top: 2.5em;
+}
+
+.footer .content .icons span {
+    display: inline;
+    background-color: #d497bf;
+    padding: 0.2em;
+    border-radius: 100%;
+    font-size: 1.5em;
+    color: white;
+    -webkit-transition: background-color 2s;
+    transition: background-color 1s;
+}
+
+.footer .content .icons span:hover {
+    background-color: #fff;
+    color: #d497bf;
+}
+
+.copyright {
+    width: 70%;
+    height: 3em;
+    margin: auto;
+    text-align: center;
+    color: #efc8ce;
+    letter-spacing: .2em;
+}
+
+/*End Footer*/
+
+/*Start My Framework*/
+
+.container {
+    margin: auto;
+    width: 90%;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.title {
+    width: 100%;
+    height: 18em;
+    text-align: center;
+    padding-top: 4em;
+}
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+    display: none;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.h1 {
+    letter-spacing: .1em;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 3.3em;
+    line-height: 1.4em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h2 {
+
+    font-family: 'Noto Sans HK', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.h3 {
+    letter-spacing: .2em;
+    font-family: 'Noto Sans HK', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1em;
+    color: #d291bc;
+    float: right;
+    width: 94%;
+}
+
+.h5 {
+    letter-spacing: .1em;
+    font-family: 'Noto Sans HK', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1em;
+    color: #c5c5c5;
+    text-align: center;
+
+}
+
+
+.responsive-paragraph {
+    line-height: 1.8;
+
+}
+
+.responsive-image {
+    width: 100%;
+}
+
+.classic-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+img-thumbnail {
+    padding: 3px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+}
+
+.button {
+    background-color: #d291bc;
+    border-style: none;
+    padding: 6%;
+    width: 55%;
+    color: #fff;
+    font-size: .9em;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 3em;
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
+}
+
+.button:hover {
+    animation: get-started 1s infinite linear;
+}
+
+
+.color {
+    width: 100%;
+    background: linear-gradient(45deg, #d291bc 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+.hvr-buzz-out {
+    background-color: #d291bc;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0)
+}
+
+.hvr-buzz-out:active,
+.hvr-buzz-out:focus,
+.hvr-buzz-out:hover {
+    -webkit-animation-name: hvr-buzz-out;
+    animation-name: hvr-buzz-out;
+    -webkit-animation-duration: .75s;
+    animation-duration: .75s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+
+/*End My Framework*/
+
+/*Extra Small devices (portrait tablets and Extra small phones, 320px and up)*/
+
+@media(min-width:320px) and (max-width:375px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .bg-img::before {
+        content: '';
+        width: 100% !important;
+        height: 40em;
+        background: linear-gradient(45deg, #f3e3ee 0%, rgba(255, 255, 255, 0) 100%);
+        position: absolute;
+        top: 0;
+    }
+
+    .header {
+        height: 27em;
+
+    }
+
+    .bg-img {
+        background-size: 40em;
+    }
+
+    .header .nav {
+        width: 100%;
+        background-color: #000;
+    }
+
+    .header .brand {
+        margin-left: 1em;
+        width: 53% !important;
+
+    }
+
+
+    .header .brand h2 {
+        color: #fff;
+        margin-top: 1.2em;
+        font-size: 1.4em;
+    }
+
+    .h1 {
+        font-size: 2em;
+    }
+
+    .header .overlay button {
+        margin-top: 3em;
+        padding: 17px 25px !important;
+    }
+
+    .header .overlay {
+        width: 100%;
+    }
+
+    .header .overlay h3 {
+        font-size: .8em;
+    }
+
+    .header .overlay button {
+        margin-top: 3em;
+        padding: 20px 29px;
+    }
+
+    .mini {
+        width: 8.4em !important;
+        height: 5em;
+        float: left;
+    }
+
+
+    .menue {
+        width: 50%;
+        height: 5em;
+        float: left;
+        text-align: center;
+        padding: 1.6em;
+        padding-left: 3em;
+    }
+
+    .bg {
+        width: 44%;
+        height: 5em;
+        float: right;
+        padding-top: .3em
+    }
+
+    .mini .menue .line {
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        margin: 4px 0;
+    }
+
+    .mini .bg h5 {
+        font-size: .9em;
+        color: #bebebe;
+        text-transform: uppercase;
+        width: 4em;
+
+    }
+
+    .header .overlay div:first-of-type {
+        animation: showup 7s infinite;
+        font-size: 2em;
+        font-weight: 100;
+        line-height: 2.3;
+    }
+
+    .header .overlay div:last-of-type {
+        width: 0px;
+        animation: reveal-responsive 7s infinite;
+    }
+
+    .header .overlay div:last-of-type span {
+        animation: slidein 7s infinite;
+        font-size: 2em;
+    }
+
+
+    /*header*/
+    /*intro*/
+
+    .intro {
+        height: 40em;
+    }
+
+    .in-img {
+        background-size: 51em;
+        height: 40em;
+    }
+
+    .intro .content {
+        width: 100%;
+        height: 35em;
+    }
+
+    .h1 {
+        font-size: 1.5em;
+    }
+
+    .intro .content p {
+        width: 100%;
+        font-size: .5em;
+
+    }
+
+    .intro .content .check {
+        width: 100%;
+        height: 4em;
+        font-size: 0.7em;
+    }
+
+    .intro .content .check2 {
+        width: 100%;
+        height: 4em;
+        font-size: 0.7em;
+    }
+
+
+    .intro .content .check3 {
+        width: 100%;
+        height: 4em;
+        font-size: 0.7em;
+    }
+
+
+    .intro .content .check4 {
+        width: 100%;
+        height: 4em;
+        font-size: 0.7em;
+    }
+
+
+    .intro .content .check5 {
+        width: 100%;
+        height: 4em;
+        font-size: 0.7em;
+    }
+
+
+    /*intro*/
+
+    /*fetuers*/
+
+    .fetures {
+        height: 60em;
+    }
+
+    .fetures .kind {
+        width: 100%;
+        height: 15em;
+        padding-top: 2em;
+    }
+
+
+    .fetures .text p {
+        font-size: .7em;
+    }
+
+    .h2 {
+        font-size: .9em;
+    }
+
+    /*fetuers*/
+
+    /*Gallery*/
+
+    .classes {
+        height: 91em !important;
+    }
+
+
+    .h5 {
+        font-size: .6em;
+    }
+
+    .program-1 {
+        width: 100% !important;
+        height: 12em;
+        background-size: cover;
+    }
+
+    .program-2 {
+        width: 100% !important;
+        height: 12em;
+        background-size: 13em;
+    }
+
+
+    .program-3 {
+        width: 100% !important;
+        height: 14em;
+        background-size: cover;
+    }
+
+
+    .program-4 {
+        width: 100% !important;
+        height: 12em;
+        background-size: cover;
+    }
+
+
+    .program-5 {
+        width: 100% !important;
+        height: 12em;
+        background-size: cover;
+    }
+
+    .program-6 {
+        width: 100% !important;
+        height: 12em;
+        background-size: cover;
+    }
+
+    /*Gallery*/
+
+
+    /* pricing table*/
+
+    .pricing {
+        height: 106em;
+    }
+
+
+    .pricing .price-table {
+        width: 90%;
+        height: 27em;
+        margin: 1em;
+    }
+
+    .pricing .title {
+        height: 12em;
+    }
+
+    .pricing .price-table h5 {
+        font-size: .7em;
+    }
+
+    .pricing .price-table h1 {
+        font-size: 2.5em;
+    }
+
+    .pricing .price-table h4 {
+        font-size: .8em;
+    }
+
+    .button {
+        padding: 1.3em;
+        width: 68%;
+        font-size: .8em;
+        margin-top: 2em;
+        letter-spacing: .1em;
+    }
+
+    /*pricing table*/
+
+    /* testmony*/
+    .testmony {
+        width: 100%;
+        height: 33em;
+    }
+
+    .testmony .title {
+        height: 12em;
+    }
+
+    .testmony .story {
+        height: 17em;
+        width: 80%;
+    }
+
+    .testmony .story:nth-of-type(2) {
+        display: none;
+    }
+
+    .testmony .story:nth-of-type(4) {
+        display: none;
+    }
+
+    .testmony .story .content {
+        height: 7.5em;
+    }
+
+    .testmony .story .content::before {
+        content: '';
+        width: .7%;
+        height: 6.5em;
+        position: absolute;
+        top: 0;
+        left: 3em;
+        background-color: #e6e6e6;
+    }
+
+    .testmony .story .icon {
+        width: 2.2em;
+        height: 1.9em;
+        top: 2em;
+        left: 2em;
+    }
+
+    .testmony .story .icon i {
+        padding: .6em;
+    }
+
+    .testmony .story p {
+        width: 70%;
+        font-size: .8em;
+
+    }
+
+    .testmony .story .trainer-1 {
+        width: 6em;
+        height: 6em;
+        background-size: 7em;
+
+    }
+
+    .testmony .story .trainer-2 {
+        width: 6em;
+        height: 6em;
+        background-size: 6em;
+
+    }
+
+    .testmony .story .profile {
+        padding-left: 4em;
+    }
+
+    .testmony .story .profile h5 {
+        width: 8em !important;
+        font-size: .7em;
+        letter-spacing: normal;
+    }
+
+    .testmony .story .profile p {
+        width: 8em !important;
+        font-size: .7em;
+    }
+
+    .testmony ul {
+        list-style: none;
+        text-align: center;
+        height: 3em;
+        width: 80%;
+    }
+
+    .parallax {
+        height: 45em;
+    }
+
+    .parallax .number-bg {
+        height: 45em;
+        width: 100%;
+        background-size: 69em;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    .parallax .number-bg .color {
+        height: 45em;
+    }
+
+    .parallax .color .text {
+        width: 90%;
+        height: 9em;
+        margin: 1em;
+        text-align: center;
+    }
+
+    .parallax .color .text h2 {
+        font-weight: 400;
+        font-size: 2.4em;
+
+    }
+
+    /* testmony*/
+
+    /*Blog*/
+    .blog .title {
+        height: 9em;
+    }
+
+    .blog {
+        height: 114em;
+    }
+
+    .blog .post {
+        width: 90%;
+        margin: 1em;
+    }
+
+    .blog .post .post-img {
+        height: 12em;
+    }
+
+    .blog .post .post-img2 {
+        background-size: contain;
+    }
+
+    .blog .post .post-img3 {
+        background-size: contain;
+    }
+
+    .blog .post .text .date h1 {
+        font-size: 2.5em;
+    }
+
+
+    /*Blog*/
+
+    /* gallery*/
+
+    .gallery .title {
+        height: 11em;
+    }
+
+    .gallery .content {
+        padding-left: .5em;
+    }
+
+    .gallery .photo {
+        width: 90%;
+        height: 16em;
+        background-size: 27em;
+        margin-bottom: 0;
+    }
+
+    .gallery .photo-2 {
+        width: 90%;
+        height: 16em;
+        background-size: 21em;
+        margin-bottom: 0;
+    }
+
+    .gallery .photo-3 {
+        width: 90%;
+        height: 16em;
+        background-size: 21em;
+        margin-bottom: 0;
+    }
+
+    .gallery .photo-4 {
+        width: 90%;
+        height: 22em;
+        background-size: 21em;
+        margin-bottom: 0;
+    }
+
+    /* gallery*/
+
+    /* footer*/
+
+    .footer {
+        height: 15em;
+    }
+
+    .footer .content {
+        height: 12em !important;
+        line-height: 1.5em;
+    }
+
+    .footer .content-2 {
+
+        width: 100% !important;
+        height: 6em !important;
+        float: none;
+
+    }
+
+    .footer .content h2 {
+        font-size: 0.9em;
+        float: none;
+        padding-left: 1em;
+    }
+
+    .footer .content-2 h2 {
+        font-size: 0.9em;
+        width: 100%;
+        padding-left: 1.1em;
+    }
+
+    .footer .content .icons {
+        width: 8em !important;
+        height: 3em;
+        float: left;
+        padding-top: 1em;
+    }
+
+
+    .footer .content {
+        height: 13em;
+    }
+
+
+    .footer .content .icons span {
+        display: inline;
+        padding: 0.6em;
+        border-radius: 100%;
+        font-size: .9em;
+        color: white
+    }
+
+    .copyright {
+        font-size: .6em;
+        padding-top: 1em;
+    }
+
+    /* footer*/
+}
+
+
+
+
+
+
+
+@media(min-width:376px) and (max-width:430px) {
+    .container {
+        width: 100%;
+    }
+
+    .bg-img::before {
+        content: '';
+        width: 100%;
+        height: 40em;
+        background: linear-gradient(45deg, #f3e3ee 0%, rgba(255, 255, 255, 0) 100%);
+        position: absolute;
+        top: 0;
+    }
+
+    .header {
+        height: 40em;
+
+    }
+
+    .bg-img {
+        background-size: 40em;
+    }
+
+    .header .nav {
+        width: 100%;
+        background-color: #000;
+    }
+
+    .header .brand {
+        margin-left: 1em;
+        width: 59%;
+
+    }
+
+    .header .brand h2 {
+        color: #fff;
+    }
+
+    .h1 {
+        font-size: 1.9em !important;
+    }
+
+    .header .overlay {
+        width: 100%;
+        padding-left: 1em;
+    }
+
+
+    .header .overlay div:first-of-type {
+        font-size: 2em;
+    }
+
+    .header .overlay div span {
+        font-size: 2em;
+    }
+
+    .header .overlay h3 {
+        font-size: .8em;
+    }
+
+    .header .overlay button {
+        margin-top: 3em;
+        padding: 20px 29px;
+    }
+
+
+    .mini {
+        width: 8.4em !important;
+        height: 5em;
+        float: left;
+        padding-top: .3em;
+    }
+
+
+    .menue {
+        width: 50%;
+        height: 5em;
+        float: left;
+        text-align: center;
+        padding: 1.6em;
+        padding-left: 3em;
+    }
+
+    .bg {
+        width: 44%;
+        height: 5em;
+        float: right;
+        padding-top: .3em
+    }
+
+    .mini .menue .line {
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        margin: 4px 0;
+    }
+
+    .mini .bg h5 {
+        font-size: .9em;
+        color: #bebebe;
+        text-transform: uppercase;
+        width: 4em;
+
+    }
+
+
+    .header .overlay div:first-of-type {
+        animation: showup 7s infinite;
+        font-size: 2em;
+        font-weight: 100;
+        line-height: 2.3;
+    }
+
+    .header .overlay div:last-of-type {
+        width: 0px;
+        animation: reveal-responsive 7s infinite;
+    }
+
+    .header .overlay div:last-of-type span {
+        animation: slidein 7s infinite;
+        font-size: 2em;
+    }
+
+
+    /*header*/
+    /*intro*/
+
+    .intro {
+        height: 40em;
+    }
+
+    .in-img {
+        background-size: 51em;
+        height: 40em;
+    }
+
+    .intro .content {
+        width: 80%;
+        height: 35em;
+    }
+
+    .h1 {
+        font-size: 1.3em;
+    }
+
+    .intro .content p {
+        width: 100%;
+        font-size: .5em;
+
+    }
+
+    .intro .content .check {
+        width: 100%;
+        height: 4em;
+        font-size: 0.7em;
+    }
+
+    /*intro*/
+
+    /*fetuers*/
+
+    .fetures {
+        height: 60em;
+    }
+
+    .fetures .kind {
+        width: 100%;
+        height: 15em;
+        padding-top: 2em;
+    }
+
+
+    .fetures .text p {
+        font-size: .7em;
+    }
+
+    .h2 {
+        font-size: .9em;
+    }
+
+    /*fetuers*/
+
+    .classes {
+        height: 91em !important;
+    }
+
+    .h1 {
+        font-size: 1.1em;
+    }
+
+    .h5 {
+        font-size: .6em;
+    }
+
+    .program-1 {
+        width: 100% !important;
+        height: 12em;
+        background-size: 20em;
+    }
+
+    .program-2 {
+        width: 100% !important;
+        height: 12em;
+        background-size: 13em;
+    }
+
+
+    .program-3 {
+        width: 100% !important;
+        height: 12em;
+        background-size: 20em;
+    }
+
+
+    .program-4 {
+        width: 100% !important;
+        height: 12em;
+        background-size: 20em;
+    }
+
+
+    .program-5 {
+        width: 100% !important;
+        height: 12em;
+        background-size: 20em;
+    }
+
+    .program-6 {
+        width: 100% !important;
+        height: 12em;
+        background-size: 20em;
+    }
+
+    /*Gallery*/
+
+    /* pricing table*/
+
+    .pricing {
+        height: 106em;
+    }
+
+
+    .pricing .price-table {
+        width: 90%;
+        height: 27em;
+        margin: 1em;
+    }
+
+    .pricing .price-table h5 {
+        font-size: .7em;
+    }
+
+    .pricing .price-table h1 {
+        font-size: 2.5em;
+    }
+
+    .pricing .price-table h4 {
+        font-size: .8em;
+    }
+
+    .button {
+        padding: 1em;
+        width: 65%;
+        font-size: .9em;
+        margin-top: 2em;
+    }
+
+    /*pricing table*/
+
+    /* testmony*/
+    .testmony {
+        width: 100%;
+        height: 33em;
+    }
+
+    .testmony .title {
+        height: 12em;
+    }
+
+    .testmony .story {
+        height: 17em;
+        width: 80%;
+    }
+
+    .testmony .story:nth-of-type(2) {
+        display: none;
+    }
+
+    .testmony .story:nth-of-type(4) {
+        display: none;
+    }
+
+    .testmony .story .content {
+        height: 7.5em;
+    }
+
+    .testmony .story .content::before {
+        content: '';
+        width: .7%;
+        height: 6.5em;
+        position: absolute;
+        top: 0;
+        left: 4em;
+        background-color: #e6e6e6;
+    }
+
+    .testmony .story .icon {
+        width: 2.2em;
+        height: 1.9em;
+        top: 2em;
+        left: 3em;
+    }
+
+    .testmony .story .icon i {
+        padding: 0.5em;
+    }
+
+    .testmony .story p {
+        width: 70%;
+        font-size: .8em;
+
+    }
+
+    .testmony .story .trainer-1 {
+        width: 6em;
+        height: 6em;
+        background-size: 7em;
+
+    }
+
+    .testmony .story .trainer-2 {
+        width: 6em;
+        height: 6em;
+        background-size: 6em;
+
+    }
+
+    .testmony .story .profile {
+        padding-left: 4em;
+    }
+
+    .testmony .story .profile h5 {
+        width: 15em;
+        font-size: .7em;
+        letter-spacing: normal;
+    }
+
+    .testmony .story .profile p {
+        width: 14em;
+        font-size: .7em;
+    }
+
+    .testmony ul {
+        list-style: none;
+        text-align: center;
+        height: 3em;
+        width: 80%;
+    }
+
+    .parallax {
+        height: 45em;
+    }
+
+    .parallax .number-bg {
+        height: 45em;
+        background-size: 69em;
+        background-repeat: no-repeat;
+        background-position: top
+    }
+
+    .parallax .number-bg .color {
+        height: 45em;
+    }
+
+    .parallax .color .text {
+        width: 90%;
+        height: 9em;
+        margin: 1em;
+        text-align: center;
+    }
+
+
+    /* testmony*/
+    /*Blog*/
+    .blog .title {
+        height: 9em;
+    }
+
+    .blog {
+        height: 114em;
+    }
+
+    .blog .post {
+        width: 90%;
+        margin: 1.5em;
+    }
+
+
+    /*Blog*/
+    /* gallery*/
+
+    .gallery .title {
+        height: 7em;
+    }
+
+    .gallery .content {
+        padding-left: .5em;
+    }
+
+    .gallery .photo {
+        width: 90%;
+        height: 16em;
+        background-size: 27em;
+    }
+
+    .gallery .photo-2 {
+        width: 90%;
+        height: 16em;
+        background-size: 27em;
+    }
+
+    .gallery .photo-3 {
+        width: 90%;
+        height: 16em;
+        background-size: 27em;
+    }
+
+    .gallery .photo-4 {
+        width: 90%;
+        height: 30em;
+        background-size: 27em;
+    }
+
+    /* gallery*/
+
+    /* footer*/
+
+    .footer {
+        height: 17em;
+    }
+
+    .footer .content {
+        height: 13em !important;
+        line-height: 1.5em;
+    }
+
+    .footer .content-2 {
+
+        width: 100% !important;
+        height: 6em !important;
+        float: none;
+
+    }
+
+    .footer .content h2 {
+        font-size: 0.9em;
+        float: none
+    }
+
+    .footer .content-2 h2 {
+        font-size: 0.8em;
+        width: 68%;
+    }
+
+
+    .footer .content .icons {
+        width: 29%;
+        height: 3em;
+        float: left;
+        padding-top: 1em;
+    }
+
+    .footer .content .icons span {
+        display: inline;
+        padding: 0.5em;
+        border-radius: 100%;
+        font-size: .9em;
+        color: white
+    }
+
+
+    .footer .content {
+        height: 13em;
+    }
+
+    .copyright {
+        font-size: .6em;
+        padding-top: 1em;
+    }
+
+    /* footer*/
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 767px and up) 
+
+/*Mobile & Tablet Rules*/
+@media(max-width:767px) {
+    .header .nav ul {
+        display: none;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media(min-width: 768px) and (max-width:991px) {
+
+    /*header*/
+
+    .bg-img::before {
+        content: '';
+        width: 77%;
+        height: 40em;
+        background: linear-gradient(45deg, #f3e3ee 0%, rgba(255, 255, 255, 0) 100%);
+        position: absolute;
+        top: 0;
+    }
+
+    .header .nav ul {
+        width: 60%;
+    }
+
+    .header .nav ul li {
+        letter-spacing: 0;
+        padding: .3em;
+    }
+
+    .header .nav ul li a {
+        font-size: 15px;
+    }
+
+    .header .brand {
+        width: 40%;
+    }
+
+    .header .brand h2 {
+        margin-top: .8em;
+        font-size: 1.3em;
+    }
+
+    .h1 {
+        font-size: 1.9em;
+        line-height: 1.5em;
+    }
+
+    .header .overlay button {
+        padding: 17px 31px;
+    }
+
+    .header .overlay h3 {
+        font-size: .9em;
+    }
+
+    .header .nav .mini {
+        display: none;
+    }
+
+    /*header*/
+
+    /*intro*/
+
+    .intro {
+        height: 40em;
+    }
+
+    .in-img {
+        background-size: 51em;
+        height: 40em;
+    }
+
+    .h1 {
+        font-size: 1.9em;
+    }
+
+    .intro .content {
+        height: 35em;
+    }
+
+    .intro .content p {
+        width: 100%;
+        font-size: .5em;
+
+    }
+
+    .intro .content .check {
+        width: 100%;
+        height: 4em;
+        font-size: 0.7em;
+    }
+
+    /*intro*/
+    /*fetuers*/
+
+    .fetures {
+        height: 32em;
+    }
+
+    .fetures .kind {
+        width: 49%;
+        height: 16em;
+        padding-top: 2em;
+    }
+
+
+    .fetures .text p {
+        font-size: .7em;
+    }
+
+    .h2 {
+        font-size: .9em;
+    }
+
+    /*fetuers*/
+    /* gallery */
+
+    .classes {
+        height: 58em;
+    }
+
+
+    .program-1 {
+        height: 20em;
+        background-size: 30em;
+    }
+
+    .program-2 {
+        height: 20em;
+        background-size: 22em;
+    }
+
+    .program-3 {
+        height: 20em;
+        background-size: 30em;
+    }
+
+    .program-4 {
+        height: 20em;
+        background-size: 30em;
+    }
+
+    .program-5 {
+        height: 20em;
+        background-size: 30em;
+    }
+
+    .program-6 {
+        height: 20em;
+        background-size: 30em;
+    }
+
+    /* gallery */
+
+    /* pricing table*/
+
+    .pricing {
+        height: 48em;
+    }
+
+
+    .pricing .price-table {
+        width: 31%;
+        margin: .5em;
+        height: 27em;
+    }
+
+    .pricing .price-table h5 {
+        font-size: .7em;
+    }
+
+    .pricing .price-table h1 {
+        font-size: 2.5em;
+    }
+
+    .pricing .price-table h4 {
+        font-size: .8em;
+    }
+
+    .button {
+        padding: 1em;
+        width: 65%;
+        font-size: .9em;
+        margin-top: 2em;
+    }
+
+    /*pricing table*/
+
+    /* testmony*/
+
+    .testmony .story {
+        height: 20em;
+    }
+
+    .testmony .story .content {
+        height: 9.5em;
+    }
+
+    .testmony .story .content::before {
+        content: '';
+        width: .6%;
+        height: 8em;
+        position: absolute;
+        top: 0;
+        left: 2em;
+        background-color: #e6e6e6;
+    }
+
+    .testmony .story .icon {
+        width: 2.2em;
+        height: 1.9em;
+        top: 3em;
+        left: 1em;
+    }
+
+    .testmony .story .icon i {
+        padding: .6em;
+    }
+
+    .testmony .story p {
+        width: 70%;
+        font-size: .8em;
+
+    }
+
+    .testmony .story .trainer-1 {
+        width: 6em;
+        height: 6em;
+        background-size: 7em;
+
+    }
+
+    .testmony .story .trainer-2 {
+        width: 6em;
+        height: 6em;
+        background-size: 6em;
+
+    }
+
+    .parallax .story .profile {
+        padding-left: 2em;
+    }
+
+    .parallax .story .profile h5 {
+        width: 8em;
+        font-size: .7em;
+        letter-spacing: normal;
+    }
+
+    .parallax .story .profile p {
+        width: 7em;
+        font-size: .7em;
+    }
+
+
+    .parallax .color .text {
+        width: 20%;
+        margin-top: 7em;
+    }
+
+    .parallax .color .text h2 {
+        font-size: 2.4em;
+    }
+
+    /* testmony*/
+
+    /* Blog*/
+
+    .blog {
+        height: 83em;
+    }
+
+    .blog .post {
+        width: 45%;
+        margin: 1em;
+    }
+
+    .blog .post:nth-of-type(4) {
+        margin: 12em;
+        margin-top: 1em;
+    }
+
+    .blog .post .post-img {
+        background-size: contain;
+        height: 13em;
+    }
+
+    .blog .post .post-img2 {
+        background-size: contain;
+        height: 13em;
+    }
+
+    .blog .post .post-img3 {
+        background-size: contain;
+        height: 13em;
+    }
+
+    /* Blog*/
+
+    /*gallery*/
+
+    .gallery .content {
+        padding-left: 6em;
+    }
+
+    .gallery .photo {
+        width: 40%;
+        height: 22em;
+        float: left;
+        background-image: url(gallery-1.jpg);
+        background-size: 25em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 1.1em;
+    }
+
+
+    .gallery .photo-2 {
+        width: 40%;
+        height: 22em;
+        float: left;
+        background-image: url(gallery-2.jpg);
+        background-size: 25em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 1.1em;
+    }
+
+
+    .gallery .photo-3 {
+        width: 40%;
+        height: 17em;
+        float: left;
+        background-image: url(gallery-3.jpg);
+        background-size: 25em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 1.1em;
+    }
+
+    .gallery .photo-4 {
+        width: 40%;
+        height: 16.7em;
+        float: left;
+        background-image: url(gallery-4.jpg);
+        background-size: 16em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 1.1em;
+        margin-top: 1.4em;
+    }
+
+
+    /*gallery*/
+
+    /* footer*/
+
+    .footer {
+        height: 12em;
+    }
+
+    .footer .content {
+        height: 8em !important;
+    }
+
+    .footer .content h2 {
+        font-size: 1.5em;
+        width: 17%;
+    }
+
+
+    .footer .content-2 h2 {
+        font-size: .9em;
+        width: 65%;
+        padding-top: 1em;
+    }
+
+    .footer .content-2 {
+        height: 5em;
+
+    }
+
+
+
+    .footer .content .icons {
+        width: 35%;
+        height: 5em;
+        padding-top: 2em;
+    }
+
+    .footer .content .icons span {
+        display: inline;
+        padding: 0.5em;
+        border-radius: 100%;
+        font-size: .9em;
+        color: white;
+    }
+
+
+    .footer .content {
+        height: 12em;
+    }
+
+    .copyright {
+        font-size: .8em;
+    }
+
+    /* footer*/
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1119px) {
+
+    /*header*/
+
+    .bg-img::before {
+        content: '';
+        width: 70%;
+        height: 40em;
+        background: linear-gradient(45deg, #f3e3ee 0%, rgba(255, 255, 255, 0) 100%);
+        position: absolute;
+        top: 0;
+    }
+
+    .header .nav ul {
+        width: 71%;
+    }
+
+    .header .brand {
+        width: 29%;
+    }
+
+    .header .nav .mini {
+        display: none;
+    }
+
+    /* header*/
+    /*intro*/
+    .in-img {
+        background-size: 70em;
+    }
+
+    .h1 {
+        font-size: 3.3em;
+        line-height: 1.5em;
+    }
+
+    .intro .content p {
+        width: 100%;
+        font-size: .7em;
+
+    }
+
+    /*intro*/
+
+    /*fetuers*/
+    .fetures .text p {
+        font-size: .7em;
+    }
+
+    .h2 {
+        font-size: 1.2em;
+    }
+
+    /*fetuers*/
+    /* gallery*/
+
+    .program-4 {
+        height: 25em;
+        background-size: 35em;
+    }
+
+    .program-5 {
+        background-size: 35em;
+        height: 24em;
+
+    }
+
+    .program-6 {
+        height: 24em;
+        background-size: 35em;
+
+    }
+
+    /* gallery*/
+
+    /* pricing table*/
+
+    .pricing .price-table {
+        width: 29%;
+        margin: 1em;
+    }
+
+    .pricing .price-table h5 {
+        font-size: .9em;
+    }
+
+    .button {
+        padding: 1.1em;
+        width: 65%;
+        font-size: 1em;
+        margin-top: 4em;
+    }
+
+    /*pricing table*/
+    /* testmony*/
+
+    .testmony .story .content {
+        height: 12.5em;
+    }
+
+    .testmony .story .content::before {
+        content: '';
+        width: .8%;
+        height: 8em;
+        position: absolute;
+        top: 1em;
+        left: 4.2em;
+        background-color: #e6e6e6;
+    }
+
+    .testmony .story .icon {
+        width: 2.2em;
+        height: 2.2em;
+        text-align: center;
+        background-color: #d291bc;
+        border-radius: 50%;
+        position: absolute;
+        top: 3.5em;
+        left: 3.2em;
+    }
+
+    .testmony .story p {
+        width: 65%;
+    }
+
+    .testmony .story .profile {
+        padding-left: 5em;
+    }
+
+    .testmony .story .profile h5 {
+        width: 8em;
+        font-size: .7em;
+        letter-spacing: normal;
+    }
+
+    .testmony .story .profile p {
+        width: 7em;
+        font-size: .7em;
+    }
+
+    .parallax .color .text {
+        width: 21%;
+    }
+
+    /* testmony*/
+
+    /*Blog*/
+
+    .blog .post {
+        width: 29.33333%;
+    }
+
+    .blog .post .post-img {
+        height: 12em;
+        background-size: contain;
+
+    }
+
+    .blog .post .post-img2 {
+        height: 12em;
+        background-size: contain;
+
+    }
+
+    .blog .post .post-img3 {
+        height: 12em;
+        background-size: contain;
+
+    }
+
+    .blog .post .text .date h1 {
+        width: 27%;
+        padding-left: .2em;
+
+    }
+
+    /*Blog*/
+
+    /* gallery*/
+    .gallery .photo {
+        width: 24%;
+        height: 23em;
+        float: left;
+        background-image: url(gallery-1.jpg);
+        background-size: 23em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 1.1em;
+    }
+
+    .gallery .photo-2 {
+        width: 21%;
+        height: 23em;
+        float: left;
+        background-image: url(gallery-2.jpg);
+        background-size: 23em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 1.1em;
+    }
+
+    .gallery .photo-3 {
+        width: 19%;
+        height: 23em;
+        float: left;
+        background-image: url(gallery-3.jpg);
+        background-size: 23em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 1.1em;
+    }
+
+    .gallery .photo-4 {
+        width: 19%;
+        height: 23em;
+        float: left;
+        background-image: url(gallery-4.jpg);
+        background-size: 10.5em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 1.1em;
+    }
+
+    /* gallery*/
+    /* footer*/
+
+    .footer {
+        height: 12em;
+    }
+
+    .footer .content {
+        height: 8em !important;
+    }
+
+    .footer .content h2 {
+        font-size: 1.5em;
+        width: 17%;
+    }
+
+
+    .footer .content-2 h2 {
+        font-size: .9em;
+        width: 65%;
+        padding-top: 1em;
+    }
+
+    .footer .content-2 {
+        height: 5em;
+
+    }
+
+
+
+    .footer .content .icons {
+        width: 35%;
+        height: 5em;
+        padding-top: 2em;
+    }
+
+    .footer .content .icons span {
+        display: inline;
+        padding: 0.5em;
+        border-radius: 100%;
+        font-size: .9em;
+        color: white;
+    }
+
+
+    .footer .content {
+        height: 12em;
+    }
+
+    .copyright {
+        font-size: .8em;
+    }
+
+    /* footer*/
+
+
+}
+
+@media (min-width: 1200px) {
+
+    .header .nav .mini {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+
+/*Animation*/
+
+@keyframes snake {
+
+    0%,
+    100% {
+        transform: translateZ(0);
+
+    }
+
+
+
+    50% {
+        transform: translateZ(5px);
+
+    }
+}
+
+
+@keyframes started {
+
+    0%,
+    100% {
+        transform: translateY(0);
+
+    }
+
+
+
+    50% {
+        transform: translateY(10px);
+
+    }
+}
+
+
+
+
+
+
+@keyframes fading {
+
+    0% {
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+
+
+
+
+
+@keyframes showup {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: -800px;
+    }
+
+    20% {
+        margin-left: -800px;
+    }
+
+    35% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+
+    20% {
+        opacity: 1;
+        width: 0px;
+    }
+
+    30% {
+        width: 400px;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        width: 400px;
+    }
+}
+
+
+
+@keyframes reveal-responsive {
+    0% {
+        opacity: 0;
+        width: 0em;
+    }
+
+    20% {
+        opacity: 1;
+        width: 0em;
+    }
+
+    30% {
+        width: 20em;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        width: 20em;
+    }
+}
+
+
+
+@keyframes hvr-buzz-out {
+    10% {
+        -webkit-transform: translateX(3px) rotate(2deg);
+        transform: translateX(3px) rotate(2deg)
+    }
+
+    20% {
+        -webkit-transform: translateX(-3px) rotate(-2deg);
+        transform: translateX(-3px) rotate(-2deg)
+    }
+
+    30% {
+        -webkit-transform: translateX(3px) rotate(2deg);
+        transform: translateX(3px) rotate(2deg)
+    }
+
+    40% {
+        -webkit-transform: translateX(-3px) rotate(-2deg);
+        transform: translateX(-3px) rotate(-2deg)
+    }
+
+    50% {
+        -webkit-transform: translateX(2px) rotate(1deg);
+        transform: translateX(2px) rotate(1deg)
+    }
+
+    60% {
+        -webkit-transform: translateX(-2px) rotate(-1deg);
+        transform: translateX(-2px) rotate(-1deg)
+    }
+
+    70% {
+        -webkit-transform: translateX(2px) rotate(1deg);
+        transform: translateX(2px) rotate(1deg)
+    }
+
+    80% {
+        -webkit-transform: translateX(-2px) rotate(-1deg);
+        transform: translateX(-2px) rotate(-1deg)
+    }
+
+    90% {
+        -webkit-transform: translateX(1px) rotate(0);
+        transform: translateX(1px) rotate(0)
+    }
+
+    100% {
+        -webkit-transform: translateX(-1px) rotate(0);
+        transform: translateX(-1px) rotate(0)
+    }
+}
+
+@keyframes fadeup {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translate3d(0, 40px, 0)
+    }
+
+    100% {
+        visibility: visible;
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes icons {
+    0% {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    25% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+
+
+
+    50% {
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+
+}
+
+@-webkit-keyframes get-started {
+    25% {
+        transform: scale(1.1);
+    }
+
+    75% {
+        transform: scale(0.9);
+    }
+}
+
+
+/*Animation*/

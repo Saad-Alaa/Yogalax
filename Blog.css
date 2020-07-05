@@ -1,0 +1,1170 @@
+/*Start Global Rulez*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d291bc;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b16a99;
+}
+
+
+/*End Global Rulez*/
+
+
+/*Start Header*/
+.bg-img {
+    background-image: url("bg_3.jpg");
+    height: 40em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    height: 40em;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+
+.header .nav {
+    width: 100%;
+    height: 13em;
+}
+
+
+.header .nav ul {
+    width: 54%;
+    list-style: none;
+    float: right;
+    padding-left: 1.8em;
+}
+
+.header .nav ul li {
+    float: left;
+    padding: 1.3em;
+    border: none;
+    cursor: pointer;
+    letter-spacing: .01em;
+}
+
+.header .nav ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.header .nav ul li.active a,
+.header .nav ul li a:hover {
+    color: #d5beeb;
+}
+
+.header .brand {
+    width: 46%;
+    float: left;
+}
+
+.header .brand h2 {
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 1.2em;
+    font-size: 1.5em;
+}
+
+
+.header .overlay {
+    width: 35%;
+    height: 20em;
+    margin: auto;
+    text-align: center;
+    animation: zoom 1s 1 linear running;
+}
+
+.header .overlay h3 {
+    letter-spacing: .3em;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-top: 1.2em;
+    font-size: 1em;
+}
+
+/*End Header*/
+
+/*Start Blog*/
+
+.blog {
+    width: 100%;
+    height: 80em;
+    background-color: #fafafa;
+    padding-top: 3em;
+}
+
+.blog .mini-blog {
+
+    width: 100%;
+    height: 70em;
+}
+
+.blog .post {
+    width: 30.33333%;
+    height: 32em;
+    margin: 1em;
+    background-color: #fff;
+    float: left;
+    -webkit-transition: border-color .5s;
+    transition: border-color .5s;
+}
+
+.blog .post:hover {
+    border: 1px solid #d291bc;
+}
+
+.blog .post .post-img {
+    width: 100%;
+    height: 15em;
+    background-image: url(image_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog .post .post-img2 {
+    width: 100%;
+    height: 15em;
+    background-image: url(image_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog .post .post-img3 {
+    width: 100%;
+    height: 15em;
+    background-image: url(image_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog .post .post-img3 {
+    width: 100%;
+    height: 15em;
+    background-image: url(image_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog .post .post-img4 {
+    width: 100%;
+    height: 15em;
+    background-image: url(image_4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog .post .post-img5 {
+    width: 100%;
+    height: 15em;
+    background-image: url(image_5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog .post .post-img6 {
+    width: 100%;
+    height: 15em;
+    background-image: url(image_6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog .post .text {
+    width: 100%;
+    height: 15em;
+}
+
+.blog .post .text .date {
+    width: 100%;
+    height: 7em;
+    padding-top: 1em;
+}
+
+.blog .post .text .date h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 3em;
+    color: #d291bc;
+    width: 20%;
+    padding-left: .5em;
+    float: left;
+}
+
+.blog .post .text .date p {
+    width: 73%;
+    color: #bbbbbb;
+    float: right;
+    font-size: 1.2em;
+    line-height: 1.9em;
+}
+
+.blog .post .text .bio {
+    width: 100%;
+    height: 9em;
+    padding: .5em;
+    padding-left: 2em;
+}
+
+.blog .post .text .bio h5 {
+    letter-spacing: .1em;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+.blog .post .text .bio p {
+    color: #bbbbbb;
+    font-size: 1em;
+}
+
+.blog .counter {
+    width: 100%;
+    height: 3em;
+}
+
+.blog .counter ul {
+    list-style: none;
+    text-align: center;
+    height: 3em;
+    width: 100%;
+}
+
+.blog .counter ul li {
+    border-radius: 100%;
+    width: 2em;
+    height: 2em;
+    border: 1px solid #e9e9e9;
+    display: inline-block;
+    background-color: #fafafa;
+    color: #d291bc;
+    padding-top: .4em;
+    -webkit-transition: background-color .7s;
+    transition: background-color .7s;
+}
+
+.blog .counter ul li.active {
+    background-color: #d291bc;
+}
+
+.blog .counter ul li:hover {
+    background-color: #d291bc;
+    color: #fff;
+}
+
+/*End Blog*/
+
+/*Start Footer*/
+.footer {
+    width: 100%;
+    height: 14em;
+    background-color: #d291bc;
+    float: left;
+}
+
+.footer .content {
+    width: 100%;
+    height: 11em;
+    padding: 1em;
+}
+
+.footer .content-2 {
+    width: 70%;
+    height: 10em;
+    float: right;
+}
+
+.footer .content h2 {
+    letter-spacing: .1em;
+    font-family: 'Noto Sans HK', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #fff;
+    font-size: 2em;
+    float: left;
+    width: 15%;
+}
+
+.footer .content-2 h2 {
+    letter-spacing: .1em;
+    font-family: 'Noto Sans HK', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.3em;
+    float: left;
+    width: 64%;
+    padding-top: .8em;
+}
+
+.footer .content .icons {
+    width: 35%;
+    height: 10em;
+    float: right;
+    text-align: center;
+    padding-top: 2.5em;
+}
+
+.footer .content .icons span {
+    display: inline;
+    background-color: #d497bf;
+    padding: 0.2em;
+    border-radius: 100%;
+    font-size: 1.5em;
+    color: white;
+    -webkit-transition: background-color 2s;
+    transition: background-color 1s;
+}
+
+
+.footer .content .icons span:hover {
+    background-color: #fff;
+    color: #d497bf;
+}
+
+.copyright {
+    width: 70%;
+    height: 3em;
+    margin: auto;
+    text-align: center;
+    color: #efc8ce;
+    letter-spacing: .2em;
+}
+
+/*End Footer*/
+
+
+/*Start My Framework*/
+
+.container {
+    margin: auto;
+    width: 90%;
+    height: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.title {
+    width: 100%;
+    height: 18em;
+    text-align: center;
+    padding-top: 4em;
+}
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+    display: none;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.h1 {
+    letter-spacing: .1em;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 3.5em;
+    line-height: 1.4em;
+}
+
+.h2 {
+
+    font-family: 'Work Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.h3 {
+    letter-spacing: .2em;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1em;
+    color: #d291bc;
+    float: right;
+    width: 94%;
+}
+
+.h5 {
+    letter-spacing: .1em;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1em;
+    color: #c5c5c5;
+    text-align: center;
+
+}
+
+
+.responsive-paragraph {
+    line-height: 1.8;
+
+}
+
+.responsive-image {
+    width: 100%;
+}
+
+.classic-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+img-thumbnail {
+    padding: 3px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+}
+
+.button {
+    background-color: #d291bc;
+    border-style: none;
+    padding: 6%;
+    width: 55%;
+    color: #fff;
+    font-size: .9em;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 3em;
+}
+
+.color {
+    width: 100%;
+    background: linear-gradient(45deg, #d291bc 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/*End My Framework*/
+
+/*Responsive*/
+@media(min-width:320px) and (max-width:375px) {
+
+    .container {
+        width: 100%;
+    }
+
+
+    .header {
+        height: 33em;
+
+    }
+
+    .bg-img {
+        background-size: 40em;
+    }
+
+    .header .nav {
+        width: 100%;
+        height: 5em;
+        background-color: #000;
+    }
+
+    .header .brand {
+        width: 53% !important;
+        margin-left: 1em;
+
+    }
+
+
+    .header .brand h2 {
+        color: #fff;
+        margin-top: 1.2em;
+        font-size: 1.4em;
+    }
+
+    .h1 {
+        font-size: 3em !important;
+    }
+
+    .header .overlay button {
+        margin-top: 3em;
+        padding: 17px 25px !important;
+    }
+
+    .header .overlay {
+        width: 100%;
+        padding-left: 1em;
+        padding-top: 5em;
+    }
+
+    .header .overlay h3 {
+        font-size: .8em;
+    }
+
+    .mini {
+        width: 8.4em !important;
+        height: 5em;
+        float: left;
+        padding-top: .2em;
+    }
+
+
+    .menue {
+        width: 50%;
+        height: 5em;
+        float: left;
+        text-align: center;
+        padding: 1.6em;
+        padding-left: 3em;
+    }
+
+    .bg {
+        width: 44%;
+        height: 5em;
+        float: right;
+        padding-top: .3em
+    }
+
+    .mini .menue .line {
+        width: 20px !important;
+        height: 2px !important;
+        background-color: #fff;
+        margin: 4px 0 !important;
+    }
+
+    .mini .bg h5 {
+        font-size: .9em;
+        color: #bebebe;
+        text-transform: uppercase;
+        width: 4em;
+
+    }
+
+    /*header*/
+
+    /*Blog*/
+
+    .blog {
+        height: 215em;
+    }
+
+    .blog .mini-blog {
+        height: 205em;
+    }
+
+    .blog .post {
+        width: 90%;
+    }
+
+    .blog .post .post-img {
+        height: 12em;
+    }
+
+    .blog .post .post-img {
+        height: 12em;
+        background-size: cover;
+    }
+
+    .blog .post .post-img2 {
+        height: 12em;
+        background-size: cover;
+    }
+
+    .blog .post .post-img3 {
+        height: 12em;
+        background-size: cover;
+    }
+
+    .blog .post .post-img4 {
+        height: 12em;
+        background-size: cover;
+    }
+
+    .blog .post .post-img5 {
+        height: 12em;
+        background-size: cover;
+    }
+
+    .blog .post .post-img6 {
+        height: 12em;
+        background-size: cover;
+    }
+
+
+
+
+    .blog .post .text .date h1 {
+        font-size: 2.5em;
+    }
+
+
+    .blog .counter ul {
+        padding-left: 0;
+    }
+
+    /*Blog*/
+
+    /* footer*/
+
+    .footer {
+        height: 15em;
+    }
+
+    .footer .content {
+        height: 12em !important;
+        line-height: 1.5em;
+    }
+
+    .footer .content-2 {
+
+        width: 100% !important;
+        height: 6em !important;
+        float: none;
+
+    }
+
+    .footer .content h2 {
+        font-size: 0.9em;
+        float: none;
+        padding-left: 1em;
+    }
+
+    .footer .content-2 h2 {
+        font-size: 0.9em;
+        width: 100%;
+        padding-left: 1.1em;
+    }
+
+    .footer .content .icons {
+        width: 44%;
+        height: 3em;
+        float: left;
+        padding-top: 1em;
+    }
+
+
+    .footer .content {
+        height: 13em;
+    }
+
+
+    .footer .content .icons span {
+        display: inline;
+        padding: 0.6em;
+        border-radius: 100%;
+        font-size: .9em;
+        color: white
+    }
+
+    .copyright {
+        font-size: .6em;
+        padding-top: 1em;
+    }
+
+    /* footer*/
+
+}
+
+
+
+@media(min-width:376px) and (max-width:430px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .header {
+        height: 40em;
+
+    }
+
+    .bg-img {
+        background-size: 40em;
+    }
+
+    .header .nav {
+        width: 100%;
+        height: 5em;
+        background-color: #000;
+    }
+
+    .header .brand {
+        margin-left: 1em;
+        width: 59%;
+
+    }
+
+    .header .brand h2 {
+        color: #fff;
+    }
+
+    .h1 {
+        font-size: 3em !important;
+    }
+
+    .header .overlay {
+        width: 100%;
+        padding-top: 5em;
+    }
+
+    .header .overlay h3 {
+        font-size: .8em;
+    }
+
+
+    .mini {
+        width: 8.4em !important;
+        height: 5em;
+        float: left;
+        padding-top: .4em;
+    }
+
+
+    .menue {
+        width: 50%;
+        height: 5em;
+        float: left;
+        text-align: center;
+        padding: 1.6em;
+        padding-left: 3em;
+    }
+
+    .bg {
+        width: 44%;
+        height: 5em;
+        float: right;
+        padding-top: .3em
+    }
+
+    .mini .menue .line {
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        margin: 4px 0;
+    }
+
+    .mini .bg h5 {
+        font-size: .9em;
+        color: #bebebe;
+        text-transform: uppercase;
+        width: 4em;
+
+    }
+
+    /*header*/
+
+    /*Blog*/
+
+    .blog {
+        height: 215em;
+    }
+
+    .blog .mini-blog {
+        width: 100%;
+        height: 205em;
+    }
+
+
+    .blog .post {
+        width: 90%;
+    }
+
+
+    .blog .counter ul {
+        padding-left: 0;
+    }
+
+    /*Blog*/
+
+    /* footer*/
+
+    .footer {
+        height: 17em;
+    }
+
+    .footer .content {
+        height: 13em !important;
+        line-height: 1.5em;
+    }
+
+    .footer .content-2 {
+
+        width: 100% !important;
+        height: 6em !important;
+        float: none;
+
+    }
+
+    .footer .content h2 {
+        font-size: 0.9em;
+        float: none
+    }
+
+    .footer .content-2 h2 {
+        font-size: 0.8em;
+        width: 68%;
+    }
+
+
+    .footer .content .icons {
+        width: 29%;
+        height: 3em;
+        float: left;
+        padding-top: 1em;
+    }
+
+    .footer .content .icons span {
+        display: inline;
+        padding: 0.5em;
+        border-radius: 100%;
+        font-size: .9em;
+        color: white
+    }
+
+
+    .footer .content {
+        height: 13em;
+    }
+
+    .copyright {
+        font-size: .6em;
+        padding-top: 1em;
+    }
+
+    /* footer*/
+}
+
+@media(max-width:767px) {
+    .header .nav ul {
+        display: none;
+    }
+
+}
+
+
+@media(min-width: 768px) and (max-width:991px) {
+
+
+    /*header*/
+    .header .nav ul {
+        width: 60%;
+    }
+
+    .header .nav ul li {
+        letter-spacing: 0;
+        padding: .3em;
+    }
+
+    .header .nav ul li a {
+        font-size: 15px;
+    }
+
+    .header .brand {
+        width: 40%;
+    }
+
+    .header .brand h2 {
+        margin-top: .8em;
+        font-size: 1.3em;
+    }
+
+    .h1 {
+        font-size: 3em;
+    }
+
+    .header .overlay h3 {
+        font-size: .9em;
+    }
+
+    /*header*/
+
+    /* Blog*/
+
+    .blog {
+        height: 113em;
+    }
+
+    .blog .mini-blog {
+        height: 104em;
+    }
+
+
+    .blog .post {
+        width: 45%;
+    }
+
+    .blog .post .post-img {
+        background-size: cover;
+        height: 13em;
+    }
+
+    .blog .post .post-img2 {
+        background-size: cover;
+        height: 13em;
+    }
+
+    .blog .post .post-img3 {
+        background-size: cover;
+        height: 13em;
+    }
+
+
+    .blog .post .post-img4 {
+        background-size: cover;
+        height: 13em;
+    }
+
+    .blog .post .post-img5 {
+        background-size: cover;
+        height: 13em;
+    }
+
+    .blog .post .post-img6 {
+        background-size: cover;
+        height: 13em;
+    }
+
+    .blog .counter ul {
+        padding-left: 0;
+    }
+
+    /* Blog*/
+
+    /* footer*/
+
+    .footer {
+        height: 12em;
+    }
+
+    .footer .content {
+        height: 8em !important;
+    }
+
+    .footer .content h2 {
+        font-size: 1.5em;
+        width: 17%;
+    }
+
+
+    .footer .content-2 h2 {
+        font-size: .9em;
+        width: 65%;
+        padding-top: 1em;
+    }
+
+    .footer .content-2 {
+        height: 5em;
+
+    }
+
+
+
+    .footer .content .icons {
+        width: 35%;
+        height: 5em;
+        padding-top: 2em;
+    }
+
+    .footer .content .icons span {
+        display: inline;
+        padding: 0.5em;
+        border-radius: 100%;
+        font-size: .9em;
+        color: white;
+    }
+
+
+    .footer .content {
+        height: 12em;
+    }
+
+    .copyright {
+        font-size: .8em;
+    }
+
+    /* footer*/
+}
+
+
+@media (min-width: 992px) and (max-width: 1119px) {
+
+    /*header*/
+
+    .header .nav ul {
+        width: 71%;
+    }
+
+    .header .brand {
+        width: 29%;
+    }
+
+    /* header*/
+
+    /*Blog*/
+
+    .blog .post {
+        width: 29.33333%;
+    }
+
+    .blog .post .post-img {
+        height: 12em;
+        background-size: contain;
+
+    }
+
+    .blog .post .post-img2 {
+        height: 12em;
+        background-size: contain;
+
+    }
+
+    .blog .post .post-img3 {
+        height: 12em;
+        background-size: contain;
+
+    }
+
+    .blog .post .post-img4 {
+        height: 12em;
+        background-size: contain;
+
+    }
+
+    .blog .post .post-img5 {
+        height: 12em;
+        background-size: contain;
+
+    }
+
+    .blog .post .post-img6 {
+        height: 12em;
+        background-size: contain;
+
+    }
+
+    .blog .post .text .date h1 {
+        width: 27%;
+        padding-left: .2em;
+
+    }
+
+    .blog .post .text .bio {
+        padding-left: 1em;
+    }
+
+    /*Blog*/
+
+    /*footer*/
+
+    .footer {
+        height: 14em;
+    }
+
+    .footer .content {
+        height: 10em;
+    }
+
+    .footer .content-2 {
+        height: 7em;
+    }
+
+    .footer .content-2 h2 {
+        font-size: 1.1em;
+        width: 65%;
+        padding-top: 1.1em;
+    }
+
+    .footer .content .icons {
+        height: 6em;
+    }
+
+
+    .footer .content .icons span {
+        display: inline;
+        padding: 0.5em;
+        border-radius: 100%;
+        font-size: 1em;
+        color: white;
+    }
+
+
+
+    .copyright {
+        height: 4em;
+    }
+
+    /*footer*/
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1450px) {
+
+    .header .nav .mini {
+        display: none;
+    }
+}
+
+
+/*Responsive*/
+
+/*Animation*/
+
+@keyframes zoom {
+
+    0% {
+        font-size: 0;
+    }
+
+
+    95% {
+        opacity: 1;
+    }
+
+    100% {
+        font-size: 100%;
+        opacity: 0
+    }
+}
+
+/*Animation*/
